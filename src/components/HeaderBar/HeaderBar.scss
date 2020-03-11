@@ -1,0 +1,19 @@
+.headerbar{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: green;
+}
+
+.headerbar__page{
+    padding: 10px;
+}
+
+.headerbar__page--home{
+    margin-left: auto;
+}
+
+.headerbar__page_text{
+    color: white;
+    text-decoration-line: none;
+}
