@@ -2,18 +2,48 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding-top: 50px;
+    justify-content: flex-end;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .home__textquery{
     border-radius: 5px;
+    flex: 1;
+    padding: 10px;
+    height: 24px;
 }
 
 .home__button{
     padding: 10px 20px !important;
-    margin: 10px !important;
+    margin-left: 10px !important;
     min-width: 90px !important;
+}
+
+.home_input{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    align-items: center;
+}
+
+.home_chat{
+    flex: 1;
+}
+
+.home_chat_question{
+    display: inline-block;
+    background-color: #0084ff;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.home_chat_answer{
+    display: inline-block;
+    background-color: #f1f0f0;
+    color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: 20px;
 }

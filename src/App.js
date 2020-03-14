@@ -10,9 +10,9 @@ import HeaderBar from './components/HeaderBar/HeaderBar';
 function App() {
   return (
     <Router>
-      <nav>
+      {/* <nav>
         <HeaderBar />
-      </nav>
+      </nav> */}
 
       <Switch>
         <Route path='/about'>
